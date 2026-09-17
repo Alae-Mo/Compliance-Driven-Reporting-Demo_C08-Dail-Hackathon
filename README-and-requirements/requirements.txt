@@ -1,0 +1,4 @@
+streamlit
+google-generativeai
+# Note: This is the requirements for the original Python version.
+# For the Next.js version, dependencies are managed in package.json.

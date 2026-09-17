@@ -1,0 +1,18 @@
+# SUMMARY: EVIDENCE DETECTIVE
+
+## 1. What the interface is doing
+The Evidence Detective is a professional investigative dashboard that acts as a "truth filter" between raw evidence and official reporting. Instead of just writing a report, it analyzes evidence to see if claims are "Supported", "Uncertain" (conflicting), or "Unsupported" (missing).
+
+## 2. How it works (The Logic)
+The system uses a "Compliance Guard" that enforces strict rules:
+- Numeric claims must be formatted exactly as: [Value] [Unit], [Period], [Evidence ID].
+- Attendance is NOT Completion.
+- Reports stay as "Draft" until a human clicks "Approve".
+- If evidence is conflicting (e.g., one source says 20, another says 12), the system refuses to report a number and marks it as "Uncertain".
+
+## 3. The User Flow (Step-by-Step)
+1. CLAIMS DASHBOARD: The user sees a high-level analysis. They immediately notice a conflict in "Total People Trained" and a gap in "Completion".
+2. SAFE DRAFT: The user generates a report. The system ONLY includes high-confidence facts. It explicitly states that completion is not reported because evidence is missing.
+3. PARTNER OUTREACH: The user sends a targeted question to the partner to resolve the specific conflict found in Step 1.
+4. PROPOSAL REVIEW: When the partner responds, the system doesn't just change the report; it creates a "Proposal" showing Old State vs. New State and explains WHY the change is now safe.
+5. FINAL AUDIT: Once the human reviewer approves, the report becomes "Approved", and a full audit trail is generated showing exactly how the truth was verified.
